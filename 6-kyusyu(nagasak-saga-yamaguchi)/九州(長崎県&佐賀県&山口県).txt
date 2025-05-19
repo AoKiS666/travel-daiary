@@ -1,0 +1,573 @@
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>～九州(長崎県&佐賀県&山口県)～</title>
+  <style>
+   
+ body {
+      margin: 0;
+      padding: 0;
+      background-image: url('haikei2.jpg'); /* ページ全体の背景 */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: sans-serif;}
+
+.title-wrapper {
+      height: 200px;/* 帯の高さ */
+      background-image: url('title.JPG'); /* ←アップロードした画像 */
+      background-size: cover;
+      background-position:center; 
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);}
+
+    .title-wrapper h1 {
+  font-size: 80px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin:0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: linear-gradient(5deg, #ad8607 30%, #fd8b00 50%, #fd001e 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);}
+
+    h1 {color: #007acc;
+    font-size: 28px;
+    text-align: center;}
+
+  h2 {
+    color: #cc6600;
+    margin-top: 40px;}
+
+
+.kansou {
+    margin-top: 15px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);}
+
+ .shop-details {
+    margin-top: 10px;
+    padding: 10px;
+    background: #fff8dc; /* ここだけクリーム色 */
+    border-radius: 8px;}
+
+  a {color: #007acc;
+    text-decoration: none;}
+
+  a:hover {
+    text-decoration: underline;}
+
+
+  </style>
+</head>
+
+<body>
+<div class="title-wrapper">
+  <h1>アオキの旅行日記</h1>
+</div>
+
+<div class="container">
+    <h1>～長崎県&佐賀県&山口県編～</h1>
+    <p>2024年2月23日から25日に旅行した記事になります！</p>
+
+<div class="container">
+  <h2>▶ 今回の旅の目次</h2>
+  <ol style="line-height: 2;">
+<li><a href="#1.aikawa">バーガーショップ　あいかわ</a></li>
+<li><a href="#2.guraba-">グラバー園</a></li>
+<li><a href="#3.oouratensyudou">大浦天主堂</a></li>
+<li><a href="#4.karatuzyou">唐津城</a></li>
+<li><a href="#5.tuzikawa">ステーキハウス　つじ川</a></li>
+<li><a href="#6.yuutokuinari">祐徳稲荷神社</a></li>
+<li><a href="#7.mutugoroutei">むつごろう亭　丸善</a></li>
+<li><a href="#8.kiraku">佐賀牛レストラン　季楽</a></li>
+<li><a href="#9.mourisiteien">毛利氏庭園</a></li>
+<li><a href="#10.miyanoutisaryou">宮の内茶寮</a></li>
+<li><a href="#11.iminomiya">忌宮神社</a></li>
+<li><a href="#12.akamazinguu">赤間神宮</a></li>
+<li><a href="#13.akiyosidou">秋芳洞</a></li>
+<li><a href="#14.kenran">網焼レストラン　見蘭</a></li>
+<li><a href="#15.soukoukyori">走行距離</a></li>
+
+
+  </ol>
+</div>
+
+<ul>
+<li><H2 id="1.aikawa">バーガーショップ　あいかわ</H2>
+<div class="kansou">
+    <img src="1.aikawa.jpg" alt="あいかわ" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
+<BR><BR>
+
+<BR>
+<BR>
+<BR><BR>
+
+ <div class="shop-details">
+    <p><strong>バーガーショップ あいかわ</strong></p>
+<p>営業時間：10:00～21:00</p>
+<p>定休日：元旦</p>
+<p>予約可否：予約不可</p>
+<p>駐車場：あり</p>
+<p>TEL：0956-58-2981</p>
+<p>住所：長崎県佐世保市有福町297-20</p>
+<p>URL： <a href="https://tabelog.com/nagasaki/A4202/A420201/42000906/"target="_blank">食べログで見る</a></p>
+<div style="margin-top: 10px;">
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11238.780158459282!2d129.78474185997362!3d33.127237072415525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356a97bb33622623%3A0x2b65d630717b85d!2z44OQ44O844Ks44O844K344On44OD44OX44GC44GE44GL44KP!5e0!3m2!1sja!2sjp!4v1746929003715!5m2!1sja!2sjp"
+width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+</iframe>
+
+</div>
+</div>
+</div>
+</li><BR>
+
+<li><H2 id="2.guraba-">グラバー園</H2>
+<div class="kansou">
+    <img src="2.guraba-.jpg" alt="グラバー園" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
+<BR><BR>
+
+<BR>
+<BR>
+<BR><BR>
+
+ <div class="shop-details">
+    <p><strong>グラバー園</strong></p>
+<p>営業時間：8:00～18:00</p>
+<p>定休日：なし</p>
+<p>駐車場：なし</p>
+<p>住所：長崎県長崎市南山手町8-1</p>
+<p>URL： <a href="https://glover-garden.jp/"target="_blank">グラバー園公式サイト</a></p>
+<div style="margin-top: 10px;">
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.212632638229!2d129.86700889033855!3d32.73354413631547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35155384824480df%3A0xebc85b717b0fdb9b!2z44Kw44Op44OQ44O85ZyS!5e0!3m2!1sja!2sjp!4v1746936459772!5m2!1sja!2sjp"
+width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+</iframe>
+
+</div>
+</div>
+</div>
+</li><BR>
+
+<li><H2 id="3.oouratensyudou">大浦天主堂</H2>
+<div class="kansou">
+    <img src="3.oouratensyudou.jpg" alt="大浦天主堂" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
+<BR><BR>
+
+<BR>
+<BR>
+<BR><BR>
+
+ <div class="shop-details">
+    <p><strong>大浦天主堂</strong></p>
+<p>営業時間：3月～10月　8:30～18:00<BR>
+　　　　　11月～2月　8:30～17:30</p>
+<p>定休日：不定休</p>
+<p>駐車場：なし</p>
+<p>住所：長崎県長崎市南山手町 5-3</p>
+<p>URL： <a href="https://oura-church.jp/"target="_blank">大浦天主堂公式サイト</a></p>
+<div style="margin-top: 10px;">
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.15095747671!2d129.86784599033854!3d32.73518203623197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3515530faf86dfc1%3A0xf5f01f5408720d26!2z5aSn5rWm5aSp5Li75aCC!5e0!3m2!1sja!2sjp!4v1746936732972!5m2!1sja!2sjp"
+width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+</iframe>
+
+</div>
+</div>
+</div>
+</li><BR>
+
+<li><H2 id="4.karatuzyou">唐津城</H2>
+<div class="kansou">
+    <img src="4.karatuzyou.jpg" alt="唐津城" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
+<BR><BR>
+
+<BR>
+<BR>
+<BR><BR>
+
+ <div class="shop-details">
+    <p><strong>唐津城</strong></p>
+<p>営業時間：9:00～17:00</p>
+<p>定休日：12月29日～12月31日</p>
+<p>駐車場：あり　普通車：1時間100円</p>
+<p>住所：佐賀県唐津市東城内8-1</p>
+<p>URL： <a href=""target="_blank">食べログで見る</a></p>
+<div style="margin-top: 10px;">
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.8422059006857!2d129.97565994036287!3d33.453417349222875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356a7876fb996593%3A0x4d2848c377b2f047!2z5ZSQ5rSl5Z-O!5e0!3m2!1sja!2sjp!4v1746936884642!5m2!1sja!2sjp"
+width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+</iframe>
+
+</div>
+</div>
+</div>
+</li><BR>
+
+<li><H2 id="5.tuzikawa">ステーキハウス　つじ川</H2>
+<div class="kansou">
+    <img src="5.tuzikawa.jpg" alt="つじ川" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
+ <img src="5.tuzikawa-2.jpg" alt="つじ川" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
+
+<BR><BR>
+
+<BR>
+<BR>
+<BR><BR>
+
+ <div class="shop-details">
+    <p><strong>つじ川</strong></p>
+<p>営業時間：11:30～14:30　17:00～21:00</p>
+<p>定休日：なし</p>
+<p>予約可否：予約可</p>
+<p>駐車場：あり</p>
+<p>TEL：0955-23-2660</p>
+<p>住所：佐賀県伊万里市新天町720-3</p>
+<p>URL： <a href="https://tabelog.com/saga/A4102/A410202/41005583/"target="_blank">食べログで見る</a></p>
+<div style="margin-top: 10px;">
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.83398505478!2d129.87273299999998!3d33.2708383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356a8446b0940001%3A0xb46fbe1f48fac404!2z44K544OG44O844Kt44OP44Km44K5IOOBpOOBmOW3nQ!5e0!3m2!1sja!2sjp!4v1746937371850!5m2!1sja!2sjp" 
+width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+</iframe>
+
+</div>
+</div>
+</div>
+</li><BR>
+
+<li><H2 id="6.yuutokuinari">祐徳稲荷神社</H2>
+<div class="kansou">
+    <img src="6.yuutokuinari.jpg" alt="祐徳稲荷神社" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
+<BR><BR>
+
+<BR>
+<BR>
+<BR><BR>
+
+ <div class="shop-details">
+    <p><strong>祐徳稲荷神社</strong></p>
+<p>営業時間：9:00～17:30</p>
+<p>定休日：なし</p>
+<p>駐車場：あり　普通車：300円</p>
+<p>住所：佐賀県鹿島市古枝乙1855</p>
+<p>URL： <a href="https://www.yutokusan.jp/"target="_blank">祐徳稲荷神社公式サイト</a></p>
+<div style="margin-top: 10px;">
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22491.929151552005!2d130.09313585367133!3d33.07106832950053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354024f4600d2901%3A0x7e95f782245107b!2z56WQ5b6z56iy6I2356We56S-!5e0!3m2!1sja!2sjp!4v1746938482415!5m2!1sja!2sjp" 
+width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+</iframe>
+
+</div>
+</div>
+</div>
+</li><BR>
+
+<li><H2 id="7.mutugoroutei">むつごろう亭　丸善</H2>
+<div class="kansou">
+    <img src="7.mutugoroutei.jpg" alt="むつごろう亭　丸善" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
+<BR><BR>
+
+<BR>
+<BR>
+<BR><BR>
+
+ <div class="shop-details">
+    <p><strong>むつごろう亭　丸善</strong></p>
+<p>営業時間：11:30～14:00　17:00～22:00</p>
+<p>定休日：不定休</p>
+<p>予約可否：予約可</p>
+<p>駐車場：あり</p>
+<p>TEL：0952-45-2911</p>
+<p>住所：佐賀県佐賀市東与賀町田中466-27</p>
+<p>URL： <a href="https://tabelog.com/saga/A4103/A410302/41003574/"target="_blank">食べログで見る</a></p>
+<div style="margin-top: 10px;">
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6676.509071247278!2d130.28586223715274!3d33.20742264209142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3540353571b93e0b%3A0x9c908dc68c7a23c0!2z44KA44Gk44GU44KN44GG5LqtIOS4uOWWhA!5e0!3m2!1sja!2sjp!4v1746939208481!5m2!1sja!2sjp"
+width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+</iframe>
+
+</div>
+</div>
+</div>
+</li><BR>
+
+<li><H2 id="8.kiraku">佐賀牛レストラン　季楽</H2>
+<div class="kansou">
+    <img src="8.kiraku.jpg" alt="季楽" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
+<BR><BR>
+
+<BR>
+<BR>
+<BR><BR>
+
+ <div class="shop-details">
+    <p><strong>佐賀牛レストラン　季楽(きら)本店</strong></p>
+<p>営業時間：11:00～15:00　17:00～22:00</p>
+<p>定休日：第2水曜日</p>
+<p>予約可否：予約可</p>
+<p>駐車場：あり</p>
+<p>TEL：0952-28-4132</p>
+<p>住所：佐賀県佐賀市大財3-9-16</p>
+<p>URL： <a href="https://tabelog.com/saga/A4101/A410101/41000012/"target="_blank">食べログで見る</a></p>
+<div style="margin-top: 10px;">
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3336.18755833792!2d130.30074894035621!3d33.26158175917529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541ca0c865f086d%3A0x155a0094e2ca7ada!2z5L2Q6LOA54mb44Os44K544OI44Op44OzIOWto-alvSDmnKzlupc!5e0!3m2!1sja!2sjp!4v1746939407285!5m2!1sja!2sjp"
+width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+</iframe>
+
+</div>
+</div>
+</div>
+</li><BR>
+
+<li><H2 id="9.mourisiteien">毛利氏庭園</H2>
+<div class="kansou">
+    <img src="9.mourisiteien.jpg" alt="" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
+<BR><BR>
+
+<BR>
+<BR>
+<BR><BR>
+
+ <div class="shop-details">
+    <p><strong>毛利氏庭園</strong></p>
+<p>営業時間：9:00～17:00</p>
+<p>定休日：12月22日～12月31日</p>
+<p>駐車場：あり</p>
+<p>住所：山口県防府市多々良1丁目15-1</p>
+<p>URL： <a href="https://mohri-museum.com/"target="_blank">毛利氏博物館公式サイト</a></p>
+<div style="margin-top: 10px;">
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5558.792283407376!2d131.58410067404932!3d34.06239569888445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354492d960c9e771%3A0xf501f032af47d227!2z5q-b5Yip5rCP5bqt5ZyS!5e0!3m2!1sja!2sjp!4v1746939607443!5m2!1sja!2sjp"
+width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+</iframe>
+
+</div>
+</div>
+</div>
+</li><BR>
+
+<li><H2 id="10.miyanoutisaryou">宮の内茶寮</H2>
+<div class="kansou">
+    <img src="10.miyanoutisaryou.jpg" alt="宮の内茶寮" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
+<BR><BR>
+
+<BR>
+<BR>
+<BR><BR>
+
+ <div class="shop-details">
+    <p><strong>宮の内茶寮</strong></p>
+<p>営業時間：11:00～14:00　17:00～21:00</p>
+<p>定休日：不定休</p>
+<p>予約可否：予約可</p>
+<p>駐車場：あり</p>
+<p>TEL：050-5872-4117</p>
+<p>住所：山口県下関市長府宮の内町1-18</p>
+<p>URL： <a href="https://tabelog.com/yamaguchi/A3502/A350201/35004132/"target="_blank">食べログで見る</a></p>
+<div style="margin-top: 10px;">
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.762726478895!2d130.9843873403817!3d33.99862782067063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354398479aae940f%3A0xd0137fb21885db45!2z5a6u44Gu5YaF6Iy25a-u!5e0!3m2!1sja!2sjp!4v1746939773723!5m2!1sja!2sjp"
+width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+</iframe>
+
+</div>
+</div>
+</div>
+</li><BR>
+
+<li><H2 id="11.iminomiya">忌宮神社</H2>
+<div class="kansou">
+    <img src="11.iminomiya.jpg" alt="忌宮神社" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
+<BR><BR>
+
+<BR>
+<BR>
+<BR><BR>
+
+ <div class="shop-details">
+    <p><strong>忌宮神社(いみのみやじんじゃ)</strong></p>
+<p>営業時間：8:30～16:30</p>
+<p>定休日：なし</p>
+<p>駐車場：あり</p>
+<p>住所：⼭⼝県下関市⻑府宮の内町1-18</p>
+<p>URL： <a href="https://iminomiya-jinjya.com/"target="_blank">忌宮神社公式サイト</a></p>
+<div style="margin-top: 10px;">
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7867.195605472987!2d130.98258165336114!3d33.99899853658696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354399d28aa2f9a9%3A0x13a918ea431ee264!2z5b-M5a6u56We56S-77yI6LGK5rWm5a6u77yJ!5e0!3m2!1sja!2sjp!4v1746939982291!5m2!1sja!2sjp"
+width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+</iframe>
+
+</div>
+</div>
+</div>
+</li><BR>
+
+<li><H2 id="12.akamazinguu">赤間神宮</H2>
+<div class="kansou">
+    <img src="12.akamazinguu.jpg" alt="赤間神宮" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
+<BR><BR>
+
+<BR>
+<BR>
+<BR><BR>
+
+ <div class="shop-details">
+    <p><strong>赤間神宮</strong></p>
+<p>営業時間：9:00～17:00</p>
+<p>定休日：なし</p>
+<p>駐車場：あり</p>
+<p>住所：山口県下関市阿弥陀寺町4-1</p>
+<p>URL： <a href="https://akama-jingu.com/"target="_blank">赤間神宮公式サイト</a></p>
+<div style="margin-top: 10px;">
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4680.048708605533!2d130.94506533404189!3d33.95927754513577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3543bd7787100001%3A0xe983d2ea16363f2!2z6LWk6ZaT56We5a6u!5e0!3m2!1sja!2sjp!4v1746940135454!5m2!1sja!2sjp"
+width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+</iframe>
+
+</div>
+</div>
+</div>
+</li><BR>
+
+<li><H2 id="13.akiyosidou">秋芳洞</H2>
+<div class="kansou">
+    <img src="13.akiyosidou.jpg" alt="秋芳洞" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
+<BR><BR>
+
+<BR>
+<BR>
+<BR><BR>
+
+ <div class="shop-details">
+    <p><strong>秋芳洞(あきよしどう)</strong></p>
+<p>営業時間：3月～11月　8:30～17:30<BR>
+　　　　　12月～2月　8:30～16:30</p>
+<p>定休日：なし</p>
+<p>駐車場：あり　普通車：500円</p>
+<p>住所：山口県美祢市秋芳町秋吉3449番地1</p>
+<p>URL： <a href="https://karusuto.com/spot/akiyoshido/"target="_blank">秋芳洞公式サイト</a></p>
+<div style="margin-top: 10px;">
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52780.770525796404!2d131.26242103625336!3d34.228171806423035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35449e73eb87e567%3A0x17151858db59774c!2z56eL6Iqz5rSe!5e0!3m2!1sja!2sjp!4v1746940376211!5m2!1sja!2sjp"
+width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+</iframe>
+
+</div>
+</div>
+</div>
+</li><BR>
+
+<li><H2 id="14.kenran">見蘭</H2>
+<div class="kansou">
+    <img src="14.kenran.jpg" alt="見蘭" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
+<BR><BR>
+
+<BR>
+<BR>
+<BR><BR>
+
+ <div class="shop-details">
+    <p><strong>網焼レストラン 見蘭(けんらん)</strong></p>
+<p>営業時間：17:00～22:00</p>
+<p>定休日：月曜日(祝日の場合は翌日)、年末年始</p>
+<p>予約可否：予約可</p>
+<p>駐車場：あり</p>
+<p>TEL：0838-26-0141</p>
+<p>住所：山口県萩市堀内89 ミドリヤファーム内</p>
+<p>URL： <a href="https://tabelog.com/yamaguchi/A3503/A350301/35000066/"target="_blank">食べログで見る</a></p>
+<div style="margin-top: 10px;">
+<iframe 
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3291.5423493182684!2d131.3784511403961!3d34.41297649870865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3544af6078b0a595%3A0x813b5436c94bc58e!2z6KaL6Jit!5e0!3m2!1sja!2sjp!4v1746940581216!5m2!1sja!2sjp"
+width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+</iframe>
+
+</div>
+</div>
+</div>
+</li><BR>
+
+<li><H2 id="15.soukoukyori">走行距離</H2>
+<div class="kansou">
+    <img src="15.soukoukyori.jpg" alt="走行距離" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
+<BR><BR>
+
+<BR>
+<BR>
+<BR><BR>
+
+ 
+</div>
+</li><BR>
+
+
+
+
+
+<BR>
+
+
+<BR><BR><BR>
+
+    </ul>
+<H2>旅行リスト<H2>
+
+
+<OL>
+～一人旅～
+<OL>
+<li><a href="../1.愛知/aichi.html">愛知県＆静岡県 2022年11月15日～17日</a></li>
+<li><a href="../2.広島/hiroshima.html">岡山県＆広島県 2022年12月6日～8日</a></li>
+<LI><a href="../3.四国/sikoku.html">四国(香川県＆徳島県＆愛媛県) 2023年2月28日～3月2日</a></LI>
+<LI><a href="../4.九州/kyuusyuu.html">九州(福岡県＆鹿児島県＆熊本県＆大分県) 2023年3月11日～15日</a></LI>
+<LI><a href="../5.北陸/hokuriku.html">北陸(福井県＆石川県＆岐阜県＆富山県) 2023年11月2日～5日"></a></LI>
+<LI><a href="../6.九州(宮崎,福岡)/second-kyuusyuu.html">九州(長崎県＆佐賀県＆山口県) 2024年2月23日～25日</a></LI>
+<LI><a href="../7.九州(長崎,佐賀,山口)/sard-kyuusyuu.html">九州(宮崎県＆福岡県)2024年3月23日～25</a></LI>
+<LI><a href="../8.三重/mie.html">三重県(日帰り旅行) 2024年5月18日</a></LI>
+<LI><a href="../9.東北(青森,岩手,秋田,山形)/touhoku.html">東北(青森県＆岩手県＆秋田県＆山形県) 2024年8月10日～18日</a></LI>
+<LI><a href="../10.高知/kouti.html">高知県 2025年3月14日～16日</a></LI>
+<LI><a href=""></a></LI>
+<LI><a href=""></a></LI>
+<LI><a href=""></a></LI>
+<LI><a href=""></a></LI>
+<LI><a href=""></a></LI>
+<LI><a href=""></a></LI>
+</OL>
+
+<div class="shop-details">
+    <p><a href="../HTML用.htm">← トップページに戻る</a></p>
+  </div>
+</div>
+<BR>
+<BR>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
