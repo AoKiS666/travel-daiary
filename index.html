@@ -16,6 +16,8 @@
       font-family: sans-serif;}
 
 
+
+
 .title-wrapper {
       height: 200px;/* 帯の高さ */
       background-image: url('title.JPG'); /* ←アップロードした画像 */
@@ -40,18 +42,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;}   
 
-.aisatubun{
-font:"Yu Gothic UI";
-width:100%;
-font-size:20px;
-color:#333;
-background-color: #e6f7ff;
-max-width: 900px;
-border-radius: 15px;
-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-padding:40px;
-margin:auto;
-line-height: 1.8;}
+.aisatubun {
+  font-family: "Yu Gothic UI", sans-serif;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
 
 .ryokou{
 font:"Yu Gothic UI";
@@ -73,7 +70,102 @@ line-height: 1.8;}
   font-size: 30px; /* 少し小さくする */
   white-space: nowrap; /* 改行を防ぐ */
   overflow: hidden;
-  text-overflow: ellipsis; /* 長すぎる場合に「…」で切る */
+  text-overflow: ellipsis;}/* 長すぎる場合に「…」で切る */
+
+.intro-and-content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* 広告とリストを横並びに */
+.ad-and-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* 左側の広告 */
+.ad-box {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+/* 右側の旅行リスト */
+.ryokou-box {
+  background-color: #e6f7ff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 700px;
+  flex: 1;
+}
+
+.ryokou-box ul {
+  padding-left: 1.5em;
+  list-style: disc;
+}
+
+.ryokou-box li {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.ad-and-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 40px auto;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.ad-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 40px auto;
+  max-width: 1400px;
+  flex-wrap: wrap;
+}
+
+/* 広告 */
+.ad-box {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+/* 白いボックス全体（自己紹介＋旅行リスト） */
+.main-box {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 700px;
+  flex: 1;
+}
+
+
+/* 旅行リスト内 */
+.ryokou-box h2,
+.ryokou-box h3 {
+  text-align: left;
+  color: #333;
+}
+
+.ryokou-box ul {
+  padding-left: 1.5em;
+  list-style: disc;
+}
+
+.ryokou-box li {
+  font-size: 20px;
+  line-height: 1.8;
+}
 
   </style>
 
@@ -87,9 +179,16 @@ line-height: 1.8;}
 </div>
 
 
-<br></br>
 
+<div class="ad-wrap">
+  <!-- 広告バナー -->
+  <div class="ad-box">
+   <a href="https://px.a8.net/svt/ejp?a8mat=455JZP+4ZSXGY+1WP2+6F1WH" rel="nofollow">
+<img border="0" width="160" height="600" alt="" src="https://www26.a8.net/svt/bgt?aid=250521973302&wid=001&eno=01&mid=s00000008903001078000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=455JZP+4ZSXGY+1WP2+6F1WH" alt="">
+  </div>
 
+ <div class="main-box">
 <div class="aisatubun">
 
 
@@ -98,19 +197,15 @@ line-height: 1.8;}
 手助けができればと思い作成したサイトになります。<br>
 一人旅は全て自分の車で旅行することを信条に旅行してます！<BR>
 旅行プラン等に迷った方は是非参考にして頂きたいです！
-
-</div>
-
 </P>
+</div>
+<BR>
 
-<br></br>
-<div class="ryokou">
-<H2>旅行リスト<H2>
+ <div class="ryokou-box">
+<H2>旅行リスト</H2>
 
+<H3>～一人旅～</H3>
 
-
-<H2>～一人旅～</H2>
-<nav>
 <UL>
 <li><a href="1-aichi/aichi.html">愛知県＆静岡県編</a></li>
 <li><a href="2-hiroshima/hiroshima.html">岡山県＆広島県編</a></li>
@@ -123,14 +218,18 @@ line-height: 1.8;}
 <LI><a href="9-tohoku(aomori-iwate-akita-yamagata)/touhoku.html">東北編(青森県＆岩手県＆秋田県＆山形県) </a></LI>
 <LI><a href="10.kohti/kouti.html">高知県編</a></LI>
 
-
-
-
-
 </UL>
-</nav>
-
 </div>
+</div>
+
+<div class="ad-box">
+
+<a href="https://px.a8.net/svt/ejp?a8mat=455JZP+4Z7HV6+0K+11BG75" rel="nofollow">
+<img border="0" width="120" height="600" alt="" src="https://www20.a8.net/svt/bgt?aid=250521973301&wid=001&eno=01&mid=s00000000002006268000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=455JZP+4Z7HV6+0K+11BG75" alt="">
+</div>
+</div>
+
 
 <footer style="text-align: center; padding: 20px; background: #f0f0f0; margin-top: 40px;">
   <p>&copy; 2025 アオキの旅行日記</p>
