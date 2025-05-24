@@ -38,14 +38,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;}
 
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: #fff;
-      padding: 30px;
-      border-radius: 15px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);}
-
+    .container{
+  font-family: "Yu Gothic UI", sans-serif;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
     h1 {color: #007acc;
     font-size: 28px;
     text-align: center;}
@@ -75,6 +74,64 @@
     text-decoration: underline;}
 
 
+/* 右側の旅行リスト */
+.ryokou-box {
+  background-color: #e6f7ff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 700px;
+  flex: 1;
+}
+
+.ryokou-box ul {
+  padding-left: 1.5em;
+  list-style: disc;
+}
+
+.ryokou-box li {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+
+.ad-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 40px auto;
+  max-width: 1400px;
+  flex-wrap: wrap;
+}
+
+/* 広告 */
+.ad-box {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+/* 白いボックス全体（自己紹介＋旅行リスト） */
+.main-box {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 700px;
+  flex: 1;
+}
+
+
+/* 旅行リスト内 */
+.ryokou-box h2,
+.ryokou-box h3 {
+  text-align: left;
+  color: #333;
+}
+
+
+
+
   </style>
 </head>
 
@@ -83,6 +140,15 @@
   <h1>アオキの旅行日記</h1>
 </div>
 
+<div class="ad-wrap">
+  <!-- 広告バナー -->
+  <div class="ad-box">
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891701059" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891701059" border="0"></a><BR>
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891701061" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891701061" border="0"></a>
+
+</div>
+
+<div class="main-box">
 <div class="container">
     <h1>～岡山県＆広島県編～</h1>
     <p>2022年12月6日～8日に岡山県と広島県を旅行した記事になります！</p>
@@ -114,11 +180,11 @@
 <li><H2 id="spot-1-azumazusi">まずは吾妻寿司で地元の海鮮を堪能！</H2>
 <div class="kansou">
     <img src="spot-1-azumazusi.JPG" alt="吾妻寿司" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
+<BR>
 
 今回は岡山地物入十二貫を頂きました！<BR>
 岡山直結のさんすて岡山内のため電車の方でも行きやすいお店でした！<BR>
-新鮮なネタがとても美味しくウニも臭みが全くなく大満足です！<BR><BR>
+新鮮なネタがとても美味しくウニも臭みが全くなく大満足です！<BR>
 
  <div class="shop-details">
     <p><strong>お店：吾妻寿司　岡山駅店</strong></p>
@@ -128,7 +194,10 @@
 <p>駐車場：あり（岡山駅駐車場）</p>
 <p>TEL：086-227-7337</p>
 <p>住所：岡山県岡山市北区駅元町1-1　さんすて岡山2F</p>
-<p>URL： <a href="https://tabelog.com/okayama/A3301/A330101/33001111/"target="_blank">食べログで見る</a></p>
+<p>URL：<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891695303&vc_url=https%3A%2F%2Ftabelog.com%2Fokayama%2FA3301%2FA330101%2F33001111%2F" rel="nofollow">
+<img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891695303" height="1" width="0" border="0">食べログでの予約はこちら</a></p>
+
+
 <div style="margin-top: 10px;">
 <iframe 
 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11037.983234189876!2d133.9159980102489!3d34.66449925274134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554064d23978f6d%3A0x67c552b485c61a48!2z5ZC-5aa75a-_5Y-4IOOBleOCk-OBmeOBpuWyoeWxseW6lw!5e0!3m2!1sja!2sjp!4v1745038827916!5m2!1sja!2sjp"
@@ -144,10 +213,10 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <li><H2 id="spot-2-oakayamazyou">岡山県の観光名所！岡山城！</H2>
 <div class="kansou">
     <img src="spot-2-oakayamazyou.JPG" alt="岡山城" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
 <BR>
+烏城とも呼ばれる漆黒の外観に惹かれる岡山城！<BR>
+金の鯱がさらに見栄えを良くしている最高のお城でした！
 <BR>
-<BR><BR>
 
 
  <div class="shop-details">
@@ -172,13 +241,12 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </li><BR>
 
-<li><H2 id="spot-3-kourakuen">日本三名園の一つ！後楽園を散策！</H2>
+<li><H2 id="spot-3-kourakuen">日本三名園のひとつ！後楽園を散策！</H2>
 <div class="kansou">
     <img src="spot-3-kourakuen.JPG" alt="後楽園" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
 <BR>
-<BR>
-<BR><BR>
+日本三名園のひとつとして有名な後楽園！<BR>
+園内から見える岡山城はまさに圧巻です！<BR>
 
 
  <div class="shop-details">
@@ -207,11 +275,10 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <li><H2 id="spot-4-kibiduzinzya">吉備津神社</H2>
 <div class="kansou">
     <img src="spot-4-kibiduzinzya.JPG" alt="吉備津神社" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
 <BR>
-<BR>
-
-<BR><BR>
+吉備津造の建築様式で有名な吉備津神社！<BR>
+国宝にも指定されている岡山県を代表する神社となります！<BR>
+桃太郎のお話のもととも云われている伝承が残る神社でもあります！<BR>
 
 
  <div class="shop-details">
@@ -238,10 +305,10 @@ target="_blank">吉備津神社公式サイト</a></p>
 <li><H2 id="spot-5-mogamiinari">最上稲荷</H2>
 <div class="kansou">
     <img src="spot-5-mogamiinari.JPG" alt="最上稲荷" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
 <BR>
-<BR>
-<BR><BR>
+正式名称は「最上稲荷山妙教寺」！<BR>
+神仏習合の祭祀形態が許された貴重な最上稲荷！<BR>
+お寺と神宮の要素を併せ持つ日蓮宗寺院となります！<BR>
 
 
  <div class="shop-details">
@@ -270,10 +337,10 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <li><H2 id="spot-6-kakiden">かき傳</H2>
 <div class="kansou">
 <img src="spot-6-kakiden.JPG" alt="かき傳" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
 <BR>
-<BR>
-<BR><BR>
+今回はカキフライ定食を頂きました！<BR>
+サクサクの衣とジューシーなカキの風味が最高でした！<BR>
+
 
 
  <div class="shop-details">
@@ -285,8 +352,9 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <p>駐車場：あり(お店の前に3台)</p>
 <p>TEL：050-5593-6148</p>
 <p>住所：広島県広島市東区光町2-8-24</p>
-<p>URL： <a href="https://tabelog.com/hiroshima/A3401/A340121/34000748/
-" target="_blank">食べログで見る</a></p>
+<p>URL：<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891695303&vc_url=https%3A%2F%2Ftabelog.com%2Fhiroshima%2FA3401%2FA340121%2F34000748%2F" rel="nofollow">
+<img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891695303" height="1" width="0" border="0">食べログでの予約はこちら</a>
+</p>
 
  <div style="margin-top: 10px;">
  <iframe 
@@ -303,10 +371,9 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <li><H2 id="spot-7-hirosimakengokokuzinzya">広島護國神社</H2>
 <div class="kansou">
     <img src="spot-7-hirosimakengokokuzinzya.JPG" alt="広島縣護國神社" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
 <BR>
-<BR>
-<BR><BR>
+明治元年に創建された由緒ある神社となります！<BR>
+天皇皇后両陛下（昭和天皇）が御親拝されたこともある有名な神社です！<BR>
 
 
  <div class="shop-details">
@@ -333,10 +400,10 @@ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3292.0050417345024!2d
 <li><H2 id="spot-8-hirosimazyou">広島城</H2>
 <div class="kansou">
     <img src="spot-8-hirosimazyou.JPG" alt="広島城" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
 <BR>
-<BR>
-<BR><BR>
+毛利元就の孫である毛利輝元が初代城主の広島城！<BR>
+原爆ドームからも近い広島市にあり観光しやすいお城になります！<BR>
+
 
 
  <div class="shop-details">
@@ -365,10 +432,11 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <li><H2 id="spot-9-genbakudo-mu">原爆ドーム</H2>
 <div class="kansou">
     <img src="spot-9-genbakudo-mu.JPG" alt="原爆ドーム" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
 <BR>
+
+崩れたガレキが今も残っており当時の悲惨さと平和について<BR>
+考えさせられる非常に思い出深い観光名所となります！
 <BR>
-<BR><BR>
 
 
  <div class="shop-details">
@@ -394,11 +462,10 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <div class="kansou">
     <img src="spot-10-itukusimazinzya.JPG" alt="厳島神社" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
 <img src="spot-10-itukusimazinzya-2.JPG" alt="厳島神社" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
 <BR>
+広島の観光名所といえば宮島の厳島神社！<BR>
+有名な鳥居は時間帯によっては近くまで歩いて見に行くことができます！<BR>
 <BR>
-<BR><BR>
-
 
  <div class="shop-details">
  <p><strong>厳島神社</strong></p>
@@ -426,10 +493,10 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <li><H2 id="spot-11-houkokuzinzya">豊国神社</H2>
 <div class="kansou">
     <img src="spot-11-houkokuzinzya.JPG" alt="豊国神社" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
 <BR>
-<BR>
-<BR><BR>
+厳島神社　境外摂末社のうちのひとつである豊国神社！<BR>
+千畳閣(せんじょうかく)とも呼ばれ重要文化財にも指定されております！<BR>
+
 
 
  <div class="shop-details">
@@ -457,10 +524,10 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <li><H2 id="spot-12-hukuyamazyou">福山城</H2>
 <div class="kansou">
     <img src="spot-12-hukuyamazyou.JPG" alt="福山城" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
 <BR>
-<BR>
-<BR><BR>
+10万石という広さを誇る福山城！<BR>
+現在の最寄り駅ももとはお城の領土内とのこと！<BR>
+お城に泊まれるキャッスルステイもありますので興味のあるかたは是非！<BR>
 
 
  <div class="shop-details">
@@ -487,10 +554,10 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <li><H2 id="spot-13-kakigoya">かき小屋</H2>
 <div class="kansou">
     <img src="spot-13-kakigoya.JPG" alt="かき小屋" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
 <BR>
-<BR>
-<BR><BR>
+広島名物のカキを炭火で焼いて頂けるお店です！<BR>
+炭火の香りとカキのおいしさを最大限に楽しめる最高のお店でした！<BR>
+
 
 
  <div class="shop-details">
@@ -501,7 +568,8 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <p>駐車場：あり</p>
 <p>TEL：090-7990-5818</p>
 <p>住所：広島県尾道市山波町298-1</p>
-<p>URL：<a href="https://tabelog.com/hiroshima/A3406/A340302/34017977/"target="_blank">食べログで見る</a></p>
+<p>URL：<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891695303&vc_url=https%3A%2F%2Ftabelog.com%2Fhiroshima%2FA3406%2FA340302%2F34017977%2F" rel="nofollow">
+<img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891695303" height="1" width="0" border="0">食べログでの予約はこちら</a></p>
 
  <div style="margin-top: 10px;">
  <iframe 
@@ -518,10 +586,11 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <li><H2 id="spot-14-himejizyou">姫路城</H2>
 <div class="kansou">
     <img src="spot-14-himejizyou.JPG" alt="姫路城" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
 <BR>
-<BR>
-<BR><BR>
+大阪への帰りの途中でずっと行きたかった姫路城に行きました！<BR>
+別名「白鷺城」とも言われる元となった白い城壁はとても美しく優雅です！<BR>
+世界文化遺産に登録されているのも納得です！<BR>
+
 
 
  <div class="shop-details">
@@ -551,21 +620,23 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
     <img src="spot-15-sin.JPG" alt="志ん" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
 <img src="spot-15-sin-2.JPG" alt="志ん" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
 
-<BR><BR>
 <BR>
+A5ランクの神戸牛を目の前で鉄板で焼いてくれる最高のお店です！<BR>
+野菜も有機野菜を使っておりすべてがおいしいお店でした！<BR>
+神戸三ノ宮駅から非常に近くアクセスもよいので気軽に行けるのもおすすめポイントです！<BR>
 <BR>
-<BR><BR>
 
 
  <div class="shop-details">
  <p><strong>お店：志ん（しん）</strong></p>
 <p>営業時間：11:30～15:30　17:30～22:30</p>
 <p>定休日：月曜日</p>
-<p>予約可否：予約不可</p>
+<p>予約可否：予約可</p>
 <p>駐車場：なし</p>
 <p>TEL：078-391-4588</p>
 <p>住所：兵庫県神戸市中央区北長狭通2丁目10-12　SEIGYOビル2Ｆ</p>
-<p>URL：<a href="https://tabelog.com/hyogo/A2801/A280101/28003514/"target="_blank">食べログで見る</a></p>
+<p>URL：<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891695303&vc_url=https%3A%2F%2Ftabelog.com%2Fhyogo%2FA2801%2FA280101%2F28003514%2F" rel="nofollow">
+<img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891695303" height="1" width="0" border="0">食べログでの予約はこちら</a></p>
 
  <div style="margin-top: 10px;">
  <iframe 
@@ -582,7 +653,7 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 
 
 いかがでしたでしょうか！<BR>
-ほとんどご飯で観光部分がほとんどなかったですが少しでも参考になれば幸いです！
+少しでも旅行プランの参考になれば幸いです！
 
 <BR><BR><BR>
 
@@ -607,11 +678,22 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 
 </OL>
 
+<a href="https://af.moshimo.com/af/c/click?a_id=5051678&p_id=55&pc_id=55&pl_id=630&url=http%3A%2F%2Ftravel.rakuten.co.jp%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc target="_blank" style="position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); z-index: 1000;">
+<img src="https://image.moshimo.com/af-img/0032/000000000630.jpg" style="border:none;" alt=""></a>
+<img src="https://i.moshimo.com/af/i/impression?a_id=5051678&p_id=55&pc_id=55&pl_id=630" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+</div></div>
+<div class="ad-box">
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891695338" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891695338" border="0"></a><BR>
+
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891701062" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891701062" border="0"></a>
 </div>
+</div>
+
 <BR>
 <BR>
 
-<footer style="text-align: center; padding: 20px; background: #f0f0f0; margin-top: 40px;">
+<footer style="text-align: center; padding: 50px; background: #f0f0f0; margin-top: 100px;">
   <p>&copy; 2025 アオキの旅行日記</p>
 
     <p><a href="../index.html">トップページに戻る</a></p>
