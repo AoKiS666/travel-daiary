@@ -159,14 +159,17 @@ display: none !important;
   /* 感想文の文字サイズ・行間を調整 */
   .container {
     font-size: 16px;
-    line-height: 1.9;
-    padding:0 10px;
+    padding: 0 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
   .kansou {
     padding: 8px;
  margin: 10px auto;
-    max-width: 95%;
+    max-width: 100%;
+box-sizing: border-box;
 font-size: 9px;
   }
 
@@ -174,6 +177,7 @@ font-size: 9px;
   .shop-details {
     padding: 6px;
     font-size: 15px;
+box-sizing: border-box;
   }
 
   /* 見出しh2の余白とサイズも縮小 */
@@ -193,6 +197,16 @@ font-size: 9px;
   img {
     margin-bottom: 5px !important;
   }
+
+/* 白いボックス全体（自己紹介＋旅行リスト） */
+.main-box {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  max-width: 100%;
+  flex: 1;
+}
 
 
 }
