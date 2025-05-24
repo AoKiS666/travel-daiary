@@ -1,2 +1,2 @@
-# [googleTest](https://github.com/AoKiS666/GoogleSeachiTest)
+# [GoogleSearchTest](https://github.com/AoKiS666/GoogleSearchTest)
 グーグルに引っかかるためのテスト
