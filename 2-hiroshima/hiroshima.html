@@ -13,7 +13,9 @@
       background-position: center;
       background-repeat: no-repeat;
       background-attachment: fixed;
-      font-family: sans-serif;}
+      font-family: sans-serif;
+}
+
 
 .title-wrapper {
       height: 200px;/* 帯の高さ */
@@ -25,9 +27,10 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);}
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
 
-    .title-wrapper h1 {
+   .title-wrapper h1 {
   font-size: 80px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -36,43 +39,59 @@
   border-radius: 10px;
   background: linear-gradient(5deg, #ad8607 30%, #fd8b00 50%, #fd001e 70%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;}
+  -webkit-text-fill-color: transparent;
+}
 
     .container{
   font-family: "Yu Gothic UI", sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   color: #333;
   margin-bottom: 30px;
-  line-height: 1.8;
+  line-height: 1.6;
 }
+
     h1 {color: #007acc;
     font-size: 28px;
-    text-align: center;}
+    text-align: center;
+}
 
   h2 {
     color: #cc6600;
-    margin-top: 40px;}
+    margin-top: 10px;
+  }
 
 
 .kansou {
-    margin-top: 15px;
-    padding: 15px;
+    margin-top: 10px;
+margin-bottom: 10px;
+    padding: 10px;
     background: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);}
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+font-size: 16px
+}
 
  .shop-details {
     margin-top: 10px;
     padding: 10px;
     background: #fff8dc; /* ここだけクリーム色 */
-    border-radius: 8px;}
+    border-radius: 8px;
+  }
 
   a {color: #007acc;
-    text-decoration: none;}
-
+    text-decoration: none;
+  }
   a:hover {
-    text-decoration: underline;}
+    text-decoration: underline;
+  }
 
+.ad-and-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
 
 /* 右側の旅行リスト */
 .ryokou-box {
@@ -82,16 +101,6 @@
   padding: 30px;
   max-width: 700px;
   flex: 1;
-}
-
-.ryokou-box ul {
-  padding-left: 1.5em;
-  list-style: disc;
-}
-
-.ryokou-box li {
-  font-size: 20px;
-  line-height: 1.8;
 }
 
 
@@ -105,11 +114,6 @@
   flex-wrap: wrap;
 }
 
-/* 広告 */
-.ad-box {
-  flex: 0 0 auto;
-  text-align: center;
-}
 
 /* 白いボックス全体（自己紹介＋旅行リスト） */
 .main-box {
@@ -129,6 +133,90 @@
   color: #333;
 }
 
+.ryokou-box ul {
+  padding-left: 1.5em;
+  list-style: disc;
+}
+
+.ryokou-box li {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.sp-br {
+  display: none;
+}
+
+/* 広告 */
+@media screen and (max-width: 935px) {
+.ad-box {
+display: none !important;
+}
+
+  /* タイトルのフォントサイズを調整 */
+  .title-wrapper h1 {
+    font-size: 40px;
+    padding: 5px 10px;
+  }
+
+  /* 感想文の文字サイズ・行間を調整 */
+  .container {
+    font-size: 16px;
+    padding: 0 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .kansou {
+    padding: 8px;
+ margin: 10px auto;
+    max-width: 100%;
+box-sizing: border-box;
+font-size: 9px;
+  }
+
+
+
+/* shop情報ブロックも詰める */
+  .shop-details {
+    padding: 6px;
+    font-size: 9px;
+box-sizing: border-box;
+  }
+
+  /* 見出しh2の余白とサイズも縮小 */
+  h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* リスト文字も少し小さく */
+  .ryokou-box li {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /* 画像も縦に詰めるために余白調整 */
+  img {
+    margin-bottom: 5px !important;
+  }
+
+/* 白いボックス全体（自己紹介＋旅行リスト） */
+.main-box {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 1px;
+  max-width: 100%;
+  flex: 1;
+}
+
+ .sp-br {
+    display: inline;
+  }
+}
 
 
 
@@ -149,13 +237,13 @@
 </div>
 
 <div class="main-box">
-<div class="container">
+<div class="kansou">
     <h1>～岡山県＆広島県編～</h1>
     <p>2022年12月6日～8日に岡山県と広島県を旅行した記事になります！</p>
 
 <div class="container">
   <h2>▶ 今回の旅の目次</h2>
-  <ol style="line-height: 2;">
+  <ol style="line-height: 1.5;">
     <li><a href="#spot-1-azumazusi">吾妻寿司</a></li>
     <li><a href="#spot-2-oakayamazyou">岡山城</a></li>
     <li><a href="#spot-3-kourakuen">後楽園</a></li>
@@ -172,7 +260,6 @@
     <li><a href="#spot-14-himejizyou">姫路城</a></li>
     <li><a href="#spot-15-sin">志ん</a></li>
    
-
   </ol>
 </div>
 
@@ -194,21 +281,20 @@
 <p>駐車場：あり（岡山駅駐車場）</p>
 <p>TEL：086-227-7337</p>
 <p>住所：岡山県岡山市北区駅元町1-1　さんすて岡山2F</p>
-<p>URL：<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891695303&vc_url=https%3A%2F%2Ftabelog.com%2Fokayama%2FA3301%2FA330101%2F33001111%2F" rel="nofollow">
-<img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891695303" height="1" width="0" border="0">食べログでの予約はこちら</a></p>
-
+<p>URL：<a href="https://tabelog.com/okayama/A3301/A330101/33001111/"target="_blank">食べログで見る</a></p>
 
 <div style="margin-top: 10px;">
 <iframe 
-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11037.983234189876!2d133.9159980102489!3d34.66449925274134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554064d23978f6d%3A0x67c552b485c61a48!2z5ZC-5aa75a-_5Y-4IOOBleOCk-OBmeOBpuWyoeWxseW6lw!5e0!3m2!1sja!2sjp!4v1745038827916!5m2!1sja!2sjp"
-width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6563.225921042809!2d133.91530153730992!3d34.664476247039225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3554064d23978f6d%3A0x67c552b485c61a48!2z5ZC-5aa75a-_5Y-4IOOBleOCk-OBmeOBpuWyoeWxseW6lw!5e0!3m2!1sja!2sjp!4v1748151817360!5m2!1sja!2sjp"width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
 </iframe>
 
 </div>
 </div>
 </div>
-</li><BR>
+</li>
 
+<!-- 300X100 -->
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891704562" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891704562" border="0"></a>
 
 <li><H2 id="spot-2-oakayamazyou">岡山県の観光名所！岡山城！</H2>
 <div class="kansou">
@@ -239,7 +325,11 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 234X60 -->
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891704580" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891704580" border="0"></a>
+
 
 <li><H2 id="spot-3-kourakuen">日本三名園のひとつ！後楽園を散策！</H2>
 <div class="kansou">
@@ -271,7 +361,11 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 300X100 -->
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891704568" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891704568" border="0"></a>
+
 <li><H2 id="spot-4-kibiduzinzya">吉備津神社</H2>
 <div class="kansou">
     <img src="spot-4-kibiduzinzya.JPG" alt="吉備津神社" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
@@ -301,7 +395,13 @@ target="_blank">吉備津神社公式サイト</a></p>
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<a href="https://af.moshimo.com/af/c/click?a_id=5052826&p_id=5701&pc_id=15749&pl_id=74040" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc>
+<img src="https://image.moshimo.com/af-img/5408/000000074040.jpg" width="320" height="100" style="border:none;"></a>
+<img src="https://i.moshimo.com/af/i/impression?a_id=5052826&p_id=5701&pc_id=15749&pl_id=74040" width="1" height="1" style="border:none;" loading="lazy">
+
+
 <li><H2 id="spot-5-mogamiinari">最上稲荷</H2>
 <div class="kansou">
     <img src="spot-5-mogamiinari.JPG" alt="最上稲荷" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
@@ -332,7 +432,12 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 350X80 -->
+<a href="https://px.a8.net/svt/ejp?a8mat=455MBH+9WMO4Y+Y92+457FWX" rel="nofollow">
+<img border="0" width="350" height="80" alt="" src="https://www29.a8.net/svt/bgt?aid=250524989599&wid=001&eno=01&mid=s00000004439025061000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=455MBH+9WMO4Y+Y92+457FWX" alt="">
 
 <li><H2 id="spot-6-kakiden">かき傳</H2>
 <div class="kansou">
@@ -340,8 +445,6 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <BR>
 今回はカキフライ定食を頂きました！<BR>
 サクサクの衣とジューシーなカキの風味が最高でした！<BR>
-
-
 
  <div class="shop-details">
  <p><strong>お店：かき傳</strong></p>
@@ -361,13 +464,17 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3292.03674790183!2d132.47717264055947!3d34.40041187314013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355a9f4e32e49f7b%3A0xe36853b298355577!2z44GL44GN5YKz!5e0!3m2!1sja!2sjp!4v1745111010183!5m2!1sja!2sjp"
 width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
 
-
 </iframe>
+</div>
+</div>
+</div>
+</li>
 
-</div>
-</div>
-</div>
-</li><BR>
+<!-- 350X50 -->
+<a href="https://px.a8.net/svt/ejp?a8mat=455KRO+D3JBW2+4EI4+BYDTT" rel="nofollow">
+<img border="0" width="320" height="50" alt="" src="https://www27.a8.net/svt/bgt?aid=250522980792&wid=001&eno=01&mid=s00000020542002008000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=455KRO+D3JBW2+4EI4+BYDTT" alt="">
+
 <li><H2 id="spot-7-hirosimakengokokuzinzya">広島護國神社</H2>
 <div class="kansou">
     <img src="spot-7-hirosimakengokokuzinzya.JPG" alt="広島縣護國神社" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
@@ -396,7 +503,13 @@ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3292.0050417345024!2d
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 350X160 -->
+<a href="https://px.a8.net/svt/ejp?a8mat=455MBH+9WMO4Y+Y92+458329" rel="nofollow">
+<img border="0" width="350" height="160" alt="" src="https://www28.a8.net/svt/bgt?aid=250524989599&wid=001&eno=01&mid=s00000004439025064000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=455MBH+9WMO4Y+Y92+458329" alt="">
+
 <li><H2 id="spot-8-hirosimazyou">広島城</H2>
 <div class="kansou">
     <img src="spot-8-hirosimazyou.JPG" alt="広島城" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
@@ -428,15 +541,20 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 234X60 -->
+<a href="https://px.a8.net/svt/ejp?a8mat=455MBH+9ERNZM+1OK+6B70H" rel="nofollow">
+<img border="0" width="234" height="60" alt="" src="https://www28.a8.net/svt/bgt?aid=250524989569&wid=001&eno=01&mid=s00000000218001060000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=455MBH+9ERNZM+1OK+6B70H" alt="">
+
 <li><H2 id="spot-9-genbakudo-mu">原爆ドーム</H2>
 <div class="kansou">
     <img src="spot-9-genbakudo-mu.JPG" alt="原爆ドーム" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
 <BR>
 
 崩れたガレキが今も残っており当時の悲惨さと平和について<BR>
-考えさせられる非常に思い出深い観光名所となります！
-<BR>
+考えさせられる非常に思い出深い観光名所となります！<BR>
 
 
  <div class="shop-details">
@@ -457,7 +575,13 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 320X50 -->
+<a href="https://px.a8.net/svt/ejp?a8mat=455MBH+9ERNZM+1OK+77CF5" rel="nofollow">
+<img border="0" width="320" height="50" alt="" src="https://www28.a8.net/svt/bgt?aid=250524989569&wid=001&eno=01&mid=s00000000218001210000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=455MBH+9ERNZM+1OK+77CF5" alt="">
+
 <li><H2 id="spot-10-itukusimazinzya">厳島神社</H2>
 <div class="kansou">
     <img src="spot-10-itukusimazinzya.JPG" alt="厳島神社" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
@@ -489,7 +613,13 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 234X60 -->
+<a href="https://px.a8.net/svt/ejp?a8mat=455N3H+G9UK1E+Z9G+BXQOH" rel="nofollow">
+<img border="0" width="234" height="60" alt="" src="https://www25.a8.net/svt/bgt?aid=250525997984&wid=001&eno=01&mid=s00000004570002005000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www16.a8.net/0.gif?a8mat=455N3H+G9UK1E+Z9G+BXQOH" alt="">
+
 <li><H2 id="spot-11-houkokuzinzya">豊国神社</H2>
 <div class="kansou">
     <img src="spot-11-houkokuzinzya.JPG" alt="豊国神社" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
@@ -519,7 +649,10 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 234X60 -->
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891704590" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891704590" border="0"></a>
 
 <li><H2 id="spot-12-hukuyamazyou">福山城</H2>
 <div class="kansou">
@@ -544,12 +677,14 @@ target="_blank">福山観光・魅力サイト</a></p>
 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d841664.0763661333!2d132.8258034994534!3d34.50921416668783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355110e4fd7277c9%3A0x89bc3b6f95d44c82!2z56aP5bGx5Z-O!5e0!3m2!1sja!2sjp!4v1745141608971!5m2!1sja!2sjp"
 width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
 
-
 </iframe>
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 234X60 -->
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891704592" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891704592" border="0"></a>
 
 <li><H2 id="spot-13-kakigoya">かき小屋</H2>
 <div class="kansou">
@@ -583,6 +718,9 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </li><BR>
 
+<!-- 234X60 -->
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891704593" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891704593" border="0"></a>
+
 <li><H2 id="spot-14-himejizyou">姫路城</H2>
 <div class="kansou">
     <img src="spot-14-himejizyou.JPG" alt="姫路城" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
@@ -613,7 +751,10 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 300X60 -->
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891704598" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891704598" border="0"></a>
 
 <li><H2 id="spot-15-sin">志ん</H2>
 <div class="kansou">
@@ -648,17 +789,21 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
 
+<!-- 300X200 -->
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891704596" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891704596" border="0"></a><BR>
 
 
 いかがでしたでしょうか！少しでも旅行プランの参考になれば幸いです！<BR>
 宮島にある揚げもみじというもみじ饅頭を揚げたものも<BR>
 とても美味しかったので是非食べて頂きたいです！
 
-<BR><BR><BR>
+
 
     </ul>
+
+<div class="ryokou-box">
 <H2>旅行リスト<H2>
 
 
@@ -666,7 +811,7 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 ～一人旅～
 <OL>
 <li><a href="../1-aichi/aichi.html">愛知県＆静岡県編</a></li>
-<li><a href="../2-hiroshima/hiroshima.html">岡山県＆広島県編</a></li>
+<li><a href="../2-hiroshima/hiroshima.html">岡山県＆広島県編[現在表示中]</a></li>
 <LI><a href="../3-shikoku/sikoku.html">四国編(香川県＆徳島県＆愛媛県)</a></LI>
 <LI><a href="../4-kyusyu(fukuoka-kagoshima-kumamoto-oita)/first-kyuusyuu.html">九州編(福岡県＆鹿児島県＆熊本県＆大分県) </a></LI>
 <LI><a href="../5-hokuriku/hokuriku.html">北陸編(福井県＆石川県＆岐阜県＆富山県) </a></LI>
@@ -677,13 +822,18 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <LI><a href="../10.kohti/kouti.html">高知県編</a></LI>
 
 
-</OL>
+</OL></div>
 
-<a href="https://af.moshimo.com/af/c/click?a_id=5051678&p_id=55&pc_id=55&pl_id=630&url=http%3A%2F%2Ftravel.rakuten.co.jp%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc target="_blank" style="position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); z-index: 1000;">
-<img src="https://image.moshimo.com/af-img/0032/000000000630.jpg" style="border:none;" alt=""></a>
-<img src="https://i.moshimo.com/af/i/impression?a_id=5051678&p_id=55&pc_id=55&pl_id=630" width="1" height="1" style="border:none;" alt="" loading="lazy">
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891701115" rel="nofollow">
+<img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891701115" border="0"></a>
+
+<a href="https://px.a8.net/svt/ejp?a8mat=455KRO+EOOXYQ+4ZCO+5ZU29" rel="nofollow" target="_blank" style="position: fixed; bottom:5px; left: 50%; transform: translateX(-50%); z-index: 1000;">
+<img border="0" width="468" height="60" alt="" src="https://www20.a8.net/svt/bgt?aid=250522980888&wid=001&eno=01&mid=s00000023244001007000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=455KRO+EOOXYQ+4ZCO+5ZU29" alt="">
 
 </div></div>
+
+
 <div class="ad-box">
 <a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891695338" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891695338" border="0"></a><BR>
 
@@ -692,9 +842,8 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 
 <BR>
-<BR>
 
-<footer style="text-align: center; padding: 50px; background: #f0f0f0; margin-top: 100px;">
+<footer style="text-align: center; padding: 50px; background: #f0f0f0; margin-top: 80px;">
   <p>&copy; 2025 アオキの旅行日記</p>
 
     <p><a href="../index.html">トップページに戻る</a></p>
