@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>～四国編(香川県&徳島県&愛媛県)～</title>
   <style>
    
@@ -13,7 +14,9 @@
       background-position: center;
       background-repeat: no-repeat;
       background-attachment: fixed;
-      font-family: sans-serif;}
+      font-family: sans-serif;
+}
+
 
 .title-wrapper {
       height: 200px;/* 帯の高さ */
@@ -25,9 +28,10 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);}
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
 
-    .title-wrapper h1 {
+   .title-wrapper h1 {
   font-size: 80px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -36,43 +40,184 @@
   border-radius: 10px;
   background: linear-gradient(5deg, #ad8607 30%, #fd8b00 50%, #fd001e 70%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;}
+  -webkit-text-fill-color: transparent;
+}
 
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: #fff;
-      padding: 30px;
-      border-radius: 15px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);}
+    .container{
+  font-family: "Yu Gothic UI", sans-serif;
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
 
     h1 {color: #007acc;
     font-size: 28px;
-    text-align: center;}
+    text-align: center;
+}
 
   h2 {
     color: #cc6600;
-    margin-top: 40px;}
+    margin-top: 10px;
+  }
 
 
 .kansou {
-    margin-top: 15px;
-    padding: 15px;
+    margin-top: 10px;
+margin-bottom: 10px;
+    padding: 10px;
     background: #ffffff;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);}
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+font-size: 16px
+}
 
  .shop-details {
     margin-top: 10px;
     padding: 10px;
     background: #fff8dc; /* ここだけクリーム色 */
-    border-radius: 8px;}
+    border-radius: 8px;
+  }
 
   a {color: #007acc;
-    text-decoration: none;}
-
+    text-decoration: none;
+  }
   a:hover {
-    text-decoration: underline;}
+    text-decoration: underline;
+  }
+
+.ad-and-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* 右側の旅行リスト */
+.ryokou-box {
+  background-color: #e6f7ff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 700px;
+  flex: 1;
+}
+
+
+.ad-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 40px auto;
+  max-width: 1400px;
+  flex-wrap: wrap;
+}
+
+
+/* 白いボックス全体（自己紹介＋旅行リスト） */
+.main-box {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 700px;
+  flex: 1;
+}
+
+
+/* 旅行リスト内 */
+.ryokou-box h2,
+.ryokou-box h3 {
+  text-align: left;
+  color: #333;
+}
+
+.ryokou-box ul {
+  padding-left: 1.5em;
+  list-style: disc;
+}
+
+.ryokou-box li {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.sp-br {
+  display: none;
+}
+
+/* 広告 */
+@media screen and (max-width: 935px) {
+.ad-box {
+display: none !important;
+}
+
+  /* タイトルのフォントサイズを調整 */
+  .title-wrapper h1 {
+    font-size: 40px;
+    padding: 5px 10px;
+  }
+
+  /* 感想文の文字サイズ・行間を調整 */
+  .container {
+    font-size: 16px;
+    padding: 0 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .kansou {
+    padding: 8px;
+ margin: 10px auto;
+    max-width: 100%;
+box-sizing: border-box;
+font-size: 9px;
+  }
+
+
+
+/* shop情報ブロックも詰める */
+  .shop-details {
+    padding: 6px;
+    font-size: 9px;
+box-sizing: border-box;
+  }
+
+  /* 見出しh2の余白とサイズも縮小 */
+  h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* リスト文字も少し小さく */
+  .ryokou-box li {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  /* 画像も縦に詰めるために余白調整 */
+  img {
+    margin-bottom: 5px !important;
+  }
+
+/* 白いボックス全体（自己紹介＋旅行リスト） */
+.main-box {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 1px;
+  max-width: 100%;
+  flex: 1;
+}
+
+ .sp-br {
+    display: inline;
+  }
+}
 
 
   </style>
@@ -83,18 +228,26 @@
   <h1>アオキの旅行日記</h1>
 </div>
 
-<div class="container">
+<div class="ad-wrap">
+  <!-- 広告バナー -->
+  <div class="ad-box">
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891701059" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891701059" border="0"></a><BR>
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891701061" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891701061" border="0"></a>
+
+</div>
+
+<div class="main-box">
+<div class="kansou">
     <h1>～香川県＆徳島県＆愛媛県編～</h1>
     <p>2022年12月6日～8日に岡山県と広島県を旅行した記事になります！</p>
 
 <div class="container">
   <h2>▶ 今回の旅の目次</h2>
-  <ol style="line-height: 2;">
+  <ol style="line-height: 1.5;">
 <li><a href="#spot-1-takamatu">高松城跡</a></li>
 <li><a href="#spot-2-konpira">金刀比羅宮</a></li>
 <li><a href="#spot-3-hubogahama">父母ヶ浜</a></li>
-<li><a href="#spot-4-tusima">津嶋</a></li>
-<li><a href="#spot-5-hurusato">讃岐食酒工房ふるさと</a></li>
+<li><a href="#spot-4-tusima">津嶋神社</a></li>
 <li><a href="#spot-6-yasubee">安兵衛</a></li>
 <li><a href="#spot-7-idodera">井戸寺</a></li>
 <li><a href="#spot-8-konbunzi">国分寺</a></li>
@@ -119,11 +272,10 @@
 <li><H2 id="spot-1-takamatu">高松城跡</H2>
 <div class="kansou">
     <img src="spot-1-takamatu.JPG" alt="高松城跡" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
-
 <BR>
-<BR>
-<BR><BR>
+玉藻公園内にある高松城跡！<BR>
+お堀の水はとてもきれいでコイの餌やり体験や<BR>
+船に乗ってお城の歴史を知れる城船体験があります！<BR>
 
  <div class="shop-details">
     <p><strong>高松城跡</strong></p>
@@ -142,20 +294,24 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
 
+<!-- 100X60 -->
+<a href="https://px.a8.net/svt/ejp?a8mat=455N3H+G9UK1E+Z9G+C6QR5" rel="nofollow">
+<img border="0" width="100" height="60" alt="" src="https://www24.a8.net/svt/bgt?aid=250525997984&wid=001&eno=01&mid=s00000004570002047000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=455N3H+G9UK1E+Z9G+C6QR5" alt="">
 
 <li><H2 id="spot-2-konpira">金刀比羅宮</H2>
 <div class="kansou">
     <img src="spot-2-konpira.JPG" alt="金刀比羅" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
 <BR>
-<BR>
-<BR><BR>
+階段の段数は本宮までで785段！<BR>
+奥社までたどり着いたときの景色は絶景なので体力のある方は最後まで登りきるのがおすすめです！<BR>
+
 
 
  <div class="shop-details">
- <p><strong>金刀比羅宮</strong></p>
+ <p><strong>金刀比羅宮(こんぴらぐう)</strong></p>
 <p>営業時間：7:00～17:00（授与所9:00～17:00）</p>
 <p>定休日：なし</p>
 <p>駐車場：なし</p>
@@ -163,8 +319,7 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <p>URL： <a href="https://www.konpira.or.jp/?stageID=hp_home&language=JAPANESE" target="_blank">金刀比羅宮</a></p>
 
  <div style="margin-top: 10px;">
- <iframe 
-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d422052.13781963516!2d133.63904836315567!3d34.266852135031826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601924421f4724b5%3A0x8de6f5cee12830a9!2z6YeR5YiA5q-U576F5a6u!5e0!3m2!1sja!2sjp!4v1745675043725!5m2!1sja!2sjp"
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31400.575728057127!2d133.7711229757733!3d34.18268133110147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601924421f4724b5%3A0x8de6f5cee12830a9!2z6YeR5YiA5q-U576F5a6u!5e0!3m2!1sja!2sjp!4v1748070458038!5m2!1sja!2sjp"
 width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
 
 
@@ -173,15 +328,20 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+
+<a href="https://af.moshimo.com/af/c/click?a_id=5051678&p_id=55&pc_id=55&pl_id=628" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc>
+<img src="https://image.moshimo.com/af-img/0032/000000000628.gif" width="234" height="60" style="border:none;"></a>
+<img src="https://i.moshimo.com/af/i/impression?a_id=5051678&p_id=55&pc_id=55&pl_id=628" width="1" height="1" style="border:none;" loading="lazy">
 
 <li><H2 id="spot-3-hubogahama">父母ヶ浜</H2>
 <div class="kansou">
     <img src="spot-3-hubogahama.JPG" alt="父母ヶ浜" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
 <BR>
-<BR>
-<BR><BR>
+インスタ映えスポットとしても有名な父母ヶ浜！<BR>
+非日常できれいな写真を撮りたい方は是非！<BR>
+一人で行く場合は寂しい気持ちになる可能性があります！(実体験)<BR>
 
 
  <div class="shop-details">
@@ -193,8 +353,7 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <p>URL： <a href="https://www.mitoyo-kanko.com/chichibugahama/" target="_blank">三豊市観光交流局</a></p>
 
  <div style="margin-top: 10px;">
- <iframe 
-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.321665465407!2d133.6476259587219!3d34.189256878968294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35517817afcab1b5%3A0x8fea83b66ddc84a1!2z54i25q-N44O25rWc!5e0!3m2!1sja!2sjp!4v1745675343524!5m2!1sja!2sjp"
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.321665465407!2d133.6476259587219!3d34.189256878968294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35517817afcab1b5%3A0x8fea83b66ddc84a1!2z54i25q-N44O25rWc!5e0!3m2!1sja!2sjp!4v1745675343524!5m2!1sja!2sjp"
 width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
 
 
@@ -203,16 +362,21 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 320X100 -->
+<a href="https://af.moshimo.com/af/c/click?a_id=5052826&p_id=5701&pc_id=15749&pl_id=74040" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc>
+<img src="https://image.moshimo.com/af-img/5408/000000074040.jpg" width="320" height="100" style="border:none;"></a>
+<img src="https://i.moshimo.com/af/i/impression?a_id=5052826&p_id=5701&pc_id=15749&pl_id=74040" width="1" height="1" style="border:none;" loading="lazy">
+
 <li><H2 id="spot-4-tusima">津嶋神社</H2>
 <div class="kansou">
     <img src="spot-4-tusima.JPG" alt="津嶋神社" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
 <img src="spot-4-tusima-2.JPG" alt="津嶋神社" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
 <BR>
-<BR>
+1年に2日しか本殿へお参りすることができない津嶋神社！<BR>
+今回は手前にある遥拝殿にお参りしました！<BR>
 
-<BR><BR>
 
 
  <div class="shop-details">
@@ -224,8 +388,8 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <p>URL： <a href="http://www.tsushima-jinja.com/" target="_blank">津嶋神社公式サイト</a></p>
 
  <div style="margin-top: 10px;">
- <iframe src=
-"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.3652802429547!2d133.84802744056975!3d34.670729273042916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355400bc2b3183ed%3A0xa2d1012e50b4f4!2z5ZCJ5YKZ5rSl56We56S-!5e0!3m2!1sja!2sjp!4v1745039128318!5m2!1sja!2sjp" width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3298.3625246620213!2d133.70025783777237!3d34.23929203597392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35517b8d0aaf225b%3A0x80a5fd527230635a!2z5rSl5baL56We56S-IOmBpeaLneauvw!5e0!3m2!1sja!2sjp!4v1748070401063!5m2!1sja!2sjp"
+width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy">
 
 
 </iframe>
@@ -233,16 +397,18 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 300X60 -->
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891704747" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891704747" border="0"></a>
 
 <li><H2 id="spot-6-yasubee">安兵衛</H2>
 <div class="kansou">
     <img src="spot-6-yasubee.JPG" alt="安兵衛" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
+<BR>
+徳島県名物の阿波尾鳥を丼で頂けるお店！<BR>
+駅からも近くお昼から空いているお店のため昼飲みをしたい方にもおすすめです！<BR>
 
-<BR>
-<BR>
-<BR><BR>
 
  <div class="shop-details">
     <p><strong>安兵衛</strong></p>
@@ -252,7 +418,10 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <p>駐車場：なし</p>
 <p>TEL：088-622-5387</p>
 <p>住所：徳島県徳島市一番町3-22</p>
-<p>URL： <a href="https://tabelog.com/tokushima/A3601/A360101/36000416/" target="_blank">食べログで見る</a></p>
+<p>URL：<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891704749&vc_url=https%3A%2F%2Fwww.hotpepper.jp%2FstrJ000032215%2Fyoyaku%2F%3Fvos%3Dcphppallall0130116001%26vos%3Dnhppvccp99002" rel="nofollow">
+<img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891704749" height="1" width="0" border="0">予約はこちら</a></p>
+
+
 <div style="margin-top: 10px;">
 <iframe 
 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.861637452573!2d134.54850404054682!3d34.07306097326094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35536d603bb65707%3A0x5eb71700bcb536ec!2z5a6J5YW16KGb!5e0!3m2!1sja!2sjp!4v1745710890887!5m2!1sja!2sjp"
@@ -262,19 +431,23 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 320X50 -->
+<a href="https://px.a8.net/svt/ejp?a8mat=455N3H+6AU69E+242M+CE13L" rel="nofollow">
+<img border="0" width="320" height="50" alt="" src="https://www26.a8.net/svt/bgt?aid=250525997381&wid=001&eno=01&mid=s00000009859002081000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=455N3H+6AU69E+242M+CE13L" alt="">
 
 <li><H2 id="spot-7-idodera">井戸寺</H2>
 <div class="kansou">
     <img src="spot-7-idodera.JPG" alt="井戸寺" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
-
 <BR>
-<BR>
-<BR><BR>
+四国八十八ヶ所巡りの第17番札所！<BR>
+お寺にある井戸は覗き込んで自分の姿がうつれば無病息災<BR>
+うつらなければ3年以内の厄災に注意という話もあるので訪れた際は是非お試しを！<BR>
 
  <div class="shop-details">
-<p><strong>井戸寺</strong></p>
+<p><strong>井戸寺(いどじ)</strong></p>
 <p>営業時間：24時間営業</p>
 <p>定休日：なし</p>
 <p>駐車場：あり</p>
@@ -289,15 +462,19 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 100X60 -->
+<a href="https://px.a8.net/svt/ejp?a8mat=455N3H+7YDIR6+5E0Q+5ZMCH" rel="nofollow">
+<img border="0" width="100" height="60" alt="" src="https://www22.a8.net/svt/bgt?aid=250525997481&wid=001&eno=01&mid=s00000025145001006000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=455N3H+7YDIR6+5E0Q+5ZMCH" alt="">
 
 <li><H2 id="spot-8-konbunzi">国分寺</H2>
 <div class="kansou">
     <img src="spot-8-konbunzi.JPG" alt="国分寺" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
-
 <BR>
-<BR>
+四国八十八ヶ所巡りの第15番札所！<BR>
+名勝庭園に指定されている庭園もあり庭園好きには最高の場所です！<BR>
 <BR><BR>
 
  <div class="shop-details">
@@ -316,16 +493,18 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 234X60 -->
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891704756" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891704756" border="0"></a>
 
 <li><H2 id="spot-9-kazurabasi">かずら橋</H2>
 <div class="kansou">
     <img src="spot-9-kazurabasi.JPG" alt="かずら橋" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
-
 <BR>
-<BR>
-<BR><BR>
+国指定重要有形民俗文化財にも指定されている祖谷のかずら橋！<BR>
+高所というスリルを味わえる高所好きにはおすすめの観光名所です！<BR>
+渡る際は携帯等を落とさないよう注意が必要です！<BR>
 
  <div class="shop-details">
     <p><strong>かずら橋</strong></p>
@@ -346,16 +525,19 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 350X160 -->
+<a href="https://px.a8.net/svt/ejp?a8mat=455MBH+9WMO4Y+Y92+44V0DT" rel="nofollow">
+<img border="0" width="350" height="160" alt="" src="https://www21.a8.net/svt/bgt?aid=250524989599&wid=001&eno=01&mid=s00000004439025003000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=455MBH+9WMO4Y+Y92+44V0DT" alt="">
 
 <li><H2 id="spot-10-yamasato">やま里</H2>
 <div class="kansou">
     <img src="spot-10-yamasato.JPG" alt="やま里" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
-
 <BR>
-<BR>
-<BR><BR>
+かずら橋から駐車場へ戻るところにあるお店です！<BR>
+名物の祖谷そばや鮎の塩焼きを頂けます！<BR>
 
  <div class="shop-details">
     <p><strong>やま里</strong></p>
@@ -374,18 +556,22 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 234X60 -->
+<a href="https://px.a8.net/svt/ejp?a8mat=455N3H+6CMH2Q+26LQ+639IP" rel="nofollow">
+<img border="0" width="234" height="60" alt="" src="https://www26.a8.net/svt/bgt?aid=250525997384&wid=001&eno=01&mid=s00000010187001023000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=455N3H+6CMH2Q+26LQ+639IP" alt="">
 
 <li><H2 id="spot-11-ariake">うわじまの料理や　有明</H2>
 <div class="kansou">
     <img src="spot-11-ariake.JPG" alt="有明" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
  <img src="spot-11-ariake-2.JPG" alt="有明" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
 
-<BR><BR>
-
 <BR>
-<BR>
-<BR><BR>
+宇和島の鯛めしを堪能できるお店です！<BR>
+新鮮で旨味のある鯛とタレが最高にご飯にあう一品です！<BR>
+写真2枚目のウツボのたたきも愛媛県の郷土料理なので興味のある方は是非お試しを！<BR>
 
  <div class="shop-details">
     <p><strong>うわじまの料理や　有明</strong></p>
@@ -395,7 +581,7 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <p>駐車場：あり</p>
 <p>TEL：0895-22-8310</p>
 <p>住所：愛媛県宇和島市丸之内5-4-12</p>
-<p>URL： <a href="https://www.uwajima-ariake.com/"target="_blank">うわじまの料理や　有明公式サイト</a></p>
+<p>URL：<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891695303&vc_url=https%3A%2F%2Fwww.uwajima-ariake.com%2F" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891695303" height="1" width="0" border="0">食べログでの予約はこちら</a></p>
 <div style="margin-top: 10px;">
 <iframe 
 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3337.685774153163!2d132.56152084051476!3d33.22233317359121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354f61cc46c8b97f%3A0x52b17341ddc56ad9!2z44GG44KP44GY44G-44Gu5paZ55CG44KEIOacieaYjg!5e0!3m2!1sja!2sjp!4v1746017850162!5m2!1sja!2sjp"
@@ -405,16 +591,20 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 320X50 -->
+<a href="https://px.a8.net/svt/ejp?a8mat=455N3I+9SGMWI+4UKG+5ZEMP" rel="nofollow">
+<img border="0" width="320" height="50" alt="" src="https://www27.a8.net/svt/bgt?aid=250525998592&wid=001&eno=01&mid=s00000022624001005000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=455N3I+9SGMWI+4UKG+5ZEMP" alt="">
 
 <li><H2 id="spot-12-uwazima">宇和島城</H2>
 <div class="kansou">
     <img src="spot-12-uwazima.JPG" alt="宇和島城" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
+<BR>
+藤堂高虎が建築した宇和島城！<BR>
+別名「鶴島城」とも言われる優美な外観は芸術です！<BR>
 
-<BR>
-<BR>
-<BR><BR>
 
  <div class="shop-details">
     <p><strong>宇和島城</strong></p>
@@ -434,16 +624,19 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 234X60 -->
+<a href="https://af.moshimo.com/af/c/click?a_id=5051678&p_id=55&pc_id=55&pl_id=628" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc>
+<img src="https://image.moshimo.com/af-img/0032/000000000628.gif" width="234" height="60" style="border:none;"></a>
+<img src="https://i.moshimo.com/af/i/impression?a_id=5051678&p_id=55&pc_id=55&pl_id=628" width="1" height="1" style="border:none;" loading="lazy">
 
 <li><H2 id="spot-13-oozu">大洲城</H2>
 <div class="kansou">
     <img src="spot-13-oozu.JPG" alt="大洲城" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
-
 <BR>
-<BR>
-<BR><BR>
+4棟の櫓が国の重要文化財に指定されている歴史ある重要施設になります！<BR>
+天守も2004年に復元されお城に泊まれるキャッスルステイも利用できます！<BR>
 
  <div class="shop-details">
     <p><strong>大洲城</strong></p>
@@ -461,19 +654,23 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 350X80 -->
+<a href="https://px.a8.net/svt/ejp?a8mat=455MBH+9WMO4Y+Y92+450SPT" rel="nofollow">
+<img border="0" width="350" height="80" alt="" src="https://www29.a8.net/svt/bgt?aid=250524989599&wid=001&eno=01&mid=s00000004439025030000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www16.a8.net/0.gif?a8mat=455MBH+9WMO4Y+Y92+450SPT" alt="">
 
 <li><H2 id="spot-14-isidedera">石手寺</H2>
 <div class="kansou">
     <img src="spot-14-isidedera.JPG" alt="石手寺" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
+<BR>
+四国八十八ヶ所巡りの第51番札所！<BR>
+仁王門は国宝に指定されており需要文化財も多数ある由緒あるお寺です！<BR>
 
-<BR>
-<BR>
-<BR><BR>
 
  <div class="shop-details">
-    <p><strong>熊野山　石手寺</strong></p>
+    <p><strong>熊野山　虚空蔵院　石手寺(いしてじ)</strong></p>
 <p>営業時間：24時間営業</p>
 <p>定休日：なし</p>
 <p>駐車場：あり</p>
@@ -488,26 +685,28 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 320X51 -->
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891704765" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891704765" border="0"></a>
 
 <li><H2 id="spot-15-gosiki">五志喜</H2>
 <div class="kansou">
     <img src="spot-15-gosiki.JPG" alt="五志喜" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
-
 <BR>
-<BR>
-<BR><BR>
+愛媛県名物の鯛めしを堪能できるお店です！<BR>
+今回は松島の鯛めしを頂きました！<BR>
+ふっくらおいしい鯛の旨味がご飯に染みて最高の一品でした！<BR>
 
  <div class="shop-details">
-    <p><strong>郷土料理　五志喜</strong></p>
+    <p><strong>郷土料理　五志喜(ごしき)</strong></p>
 <p>営業時間：11:00～14:00　17:00～21:00</p>
 <p>定休日：不定休</p>
 <p>予約可否：予約可</p>
 <p>駐車場：なし</p>
 <p>TEL：050-5571-3318</p>
 <p>住所：愛媛県松山市三番町3-5-4</p>
-<p>URL： <a href="https://tabelog.com/ehime/A3801/A380101/38000375/"target="_blank">食べログで見る</a></p>
+<p>URL：<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891695303&vc_url=https%3A%2F%2Ftabelog.com%2Fehime%2FA3801%2FA380101%2F38000375%2F" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891695303" height="1" width="0" border="0">食べログでの予約はこちら</a></p>
 <div style="margin-top: 10px;">
 <iframe 
 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.9853215020435!2d132.7658966130202!3d33.838489174329396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354fe5f27e05eecf%3A0x11fc23d6bc2a7145!2z6YO35Zyf5paZ55CGIOS6lOW_l-WWnA!5e0!3m2!1sja!2sjp!4v1746253444463!5m2!1sja!2sjp" 
@@ -517,16 +716,20 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 234X60 -->
+<a href="https://px.a8.net/svt/ejp?a8mat=455N3I+9SGMWI+4UKG+5ZMCH" rel="nofollow">
+<img border="0" width="234" height="60" alt="" src="https://www22.a8.net/svt/bgt?aid=250525998592&wid=001&eno=01&mid=s00000022624001006000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=455N3I+9SGMWI+4UKG+5ZMCH" alt="">
 
 <li><H2 id="spot-16-imabari">今治城</H2>
 <div class="kansou">
     <img src="spot-16-imabari.JPG" alt="今治城" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
-
 <BR>
-<BR>
-<BR><BR>
+別名「吹揚城」とも言われる立派なお城です！<BR>
+鉄御門の桝形は大阪城にも採用されたお城を守る構造として革新的な造りとなります！<BR>
+お堀も海水が引かれている珍しい海城でもあります！<BR>
 
  <div class="shop-details">
     <p><strong>今治城</strong></p>
@@ -544,19 +747,23 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 224X33 -->
+<a href="https://px.a8.net/svt/ejp?a8mat=455KRO+F3KS36+15A4+669JL" rel="nofollow">
+<img border="0" width="224" height="33" alt="" src="https://www22.a8.net/svt/bgt?aid=250522980913&wid=001&eno=01&mid=s00000005350001037000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www16.a8.net/0.gif?a8mat=455KRO+F3KS36+15A4+669JL" alt="">
 
 <li><H2 id="spot-17-hukiage">吹揚神社</H2>
 <div class="kansou">
     <img src="spot-17-hukiage.JPG" alt="吹揚神社" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
-
 <BR>
-<BR>
-<BR><BR>
+今治城下に鎮座する吹揚神社！<BR>
+天守閣のすぐ下に鎮座している非常に珍しい神社です！<BR>
+愛媛県の県社でもあるため有名な神社となります！<BR>
 
  <div class="shop-details">
-    <p><strong>吹揚神社</strong></p>
+    <p><strong>吹揚神社(ふきあげじんじゃ)</strong></p>
 <p>営業時間：9:00～17:00</p>
 <p>定休日：なし</p>
 <p>駐車場：あり　普通車：1時間100円</p>
@@ -571,16 +778,18 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 234X60 -->
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891704775" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891704775" border="0"></a>
 
 <li><H2 id="spot-18-gaiyamaru">がいや丸</H2>
 <div class="kansou">
     <img src="spot-18-gaiyamaru.JPG" alt="がいや丸" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
+<BR>
+宇和島の鯛めしをもう一度食べたいと寄ったお店のがいや丸！<BR>
+おいしい鯛めしがリーズナブルに食べれる良いお店でした！<BR>
 
-<BR>
-<BR>
-<BR><BR>
 
  <div class="shop-details">
     <p><strong>馳走宇和海 がいや丸</strong></p>
@@ -591,7 +800,7 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 <p>駐車場：あり</p>
 <p>TEL：089-906-8675</p>
 <p>住所：愛媛県松山市衣山1-188 パルティ・フジ衣山</p>
-<p>URL： <a href="https://tabelog.com/ehime/A3801/A380101/38010922/"target="_blank">食べログで見る</a></p>
+<p>URL：<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891695303&vc_url=https%3A%2F%2Ftabelog.com%2Fehime%2FA3801%2FA380101%2F38010922%2F" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891695303" height="1" width="0" border="0">食べログでの予約はこちら</a></p>
 <div style="margin-top: 10px;">
 <iframe 
 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6626.805297453941!2d132.74298814053864!3d33.85351257334393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354fe575f9f3d67f%3A0x2c653a7f607954!2z6aaz6LWw5a6H5ZKM5rW3IOOBjOOBhOOChOS4uA!5e0!3m2!1sja!2sjp!4v1746448558272!5m2!1sja!2sjp"
@@ -601,16 +810,20 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 320X50 -->
+<a href="https://px.a8.net/svt/ejp?a8mat=455N3I+9SGMWI+4UKG+5ZEMP" rel="nofollow">
+<img border="0" width="320" height="50" alt="" src="https://www20.a8.net/svt/bgt?aid=250525998592&wid=001&eno=01&mid=s00000022624001005000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=455N3I+9SGMWI+4UKG+5ZEMP" alt="">
 
 <li><H2 id="spot-19-matuyayma">松山城</H2>
 <div class="kansou">
     <img src="spot-19-matuyayma.JPG" alt="松山城" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
-
 <BR>
-<BR>
-<BR><BR>
+日本100名城のひとつで現存12天守のひとつでもある松山城！<BR>
+当時建てられた天守が今もまだ残るお城は全国で12ヶ所のみ！<BR>
+その12ヶ所のうちのひとつとして有名なお城です！<BR>
 
  <div class="shop-details">
     <p><strong>松山城</strong></p>
@@ -631,16 +844,18 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 300X60 -->
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891704778" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891704778" border="0"></a>
 
 <li><H2 id="spot-20-nangoku">南国SA　カツオ丼</H2>
 <div class="kansou">
     <img src="spot-20-nangoku.JPG" alt="南国SA" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
-
 <BR>
-<BR>
-<BR><BR>
+時間の関係で高知県を観光することができなかったので<BR>
+せめて高知気分を味わおうと頂いたカツオ丼！<BR>
+にんにくの香りとカツオの風味がマッチしてとてもおいしい一品でした！<BR>
 
  <div class="shop-details">
     <p><strong>南国SA　フードコート</strong></p>
@@ -660,55 +875,75 @@ width="100%" height="300" style="border:0; border-radius:10px;" allowfullscreen=
 </div>
 </div>
 </div>
-</li><BR>
+</li>
+
+<!-- 320X50 -->
+<a href="https://px.a8.net/svt/ejp?a8mat=455N3I+9SGMWI+4UKG+5ZEMP" rel="nofollow">
+<img border="0" width="320" height="50" alt="" src="https://www20.a8.net/svt/bgt?aid=250525998592&wid=001&eno=01&mid=s00000022624001005000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=455N3I+9SGMWI+4UKG+5ZEMP" alt="">
 
 <li><H2 id="spot-21-soukoukyori">走行距離</H2>
 <div class="kansou">
     <img src="spot-21-soukoukyori.JPG" alt="走行距離" style="max-width: 100%; height: auto; border-radius: 10px; margin-bottom: 10px;">
-<BR><BR>
-
 <BR>
-<BR>
-<BR><BR>
+いかがでしたでしょうか！<BR>
+今回は四国をほぼ一周して走行距離は約1,500kmの旅行となりました！<BR>
+1日あたり約400kmと運転を始めて半年未満の当時は新鮮な旅となりました！<BR>
+次回は九州4県の旅となります！興味のある方は是非ご覧ください！
 
 </div>
-</li><BR>
+</li>
+</ul>
 
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891704778" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891704778" border="0"></a>
 
-
-いかがでしたでしょうか！<BR>
-
-
-<BR><BR><BR>
-
-    </ul>
+<div class="ryokou-box">
 <H2>旅行リスト</H2>
-
 
 <OL>
 ～一人旅～
 <OL>
-<li><a href="../1-aichi/aichi.html">愛知県＆静岡県編</a></li>
+<li><a href="../1-aichi/aichi.html">愛知県＆静岡県編[現在表示中]</a></li>
 <li><a href="../2-hiroshima/hiroshima.html">岡山県＆広島県編</a></li>
-<LI><a href="../3-shikoku/sikoku.html">四国編(香川県＆徳島県＆愛媛県)</a></LI>
-<LI><a href="../4-kyusyu(fukuoka-kagoshima-kumamoto-oita)/first-kyuusyuu.html">九州編(福岡県＆鹿児島県＆熊本県＆大分県) </a></LI>
-<LI><a href="../5-hokuriku/hokuriku.html">北陸編(福井県＆石川県＆岐阜県＆富山県) </a></LI>
-<LI><a href="../6-kyusyu(nagasak-saga-yamaguchi)/second-kyuusyuu.html">九州編(長崎県＆佐賀県＆山口県) </a></LI>
+<LI><a href="../3-shikoku/sikoku.html">四国編<br class="sp-br">
+(香川県＆徳島県＆愛媛県)</a></LI>
+<LI><a href="../4-kyusyu(fukuoka-kagoshima-kumamoto-oita)/first-kyuusyuu.html">九州編<br class="sp-br">
+(福岡県＆鹿児島県＆熊本県＆大分県) </a></LI>
+<LI><a href="../5-hokuriku/hokuriku.html">北陸編<br class="sp-br">
+(福井県＆石川県＆岐阜県＆富山県) </a></LI>
+<LI><a href="../6-kyusyu(nagasak-saga-yamaguchi)/second-kyuusyuu.html">九州編<br class="sp-br">
+(長崎県＆佐賀県＆山口県) </a></LI>
 <LI><a href="../7-kyusyu(miyazaki-fukuoka)/sard-kyuusyuu.html">九州編(宮崎県＆福岡県)</a></LI>
 <LI><a href="../8-mie/mie.html">三重県(日帰り旅行) </a></LI>
-<LI><a href="../9-tohoku(aomori-iwate-akita-yamagata)/touhoku.html">東北編(青森県＆岩手県＆秋田県＆山形県) </a></LI>
+<LI><a href="../9-tohoku(aomori-iwate-akita-yamagata)/touhoku.html">東北編<br class="sp-br">
+(青森県＆岩手県＆秋田県＆山形県) </a></LI>
 <LI><a href="../10.kohti/kouti.html">高知県編</a></LI>
 
+</OL></div>
 
 
-</OL>
 
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891704604" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891704604" border="0"></a>
+
+<a href="https://px.a8.net/svt/ejp?a8mat=455KRO+EOOXYQ+4ZCO+5ZU29" rel="nofollow" target="_blank" style="position: fixed; bottom:5px; left: 50%; transform: translateX(-50%); z-index: 1000;">
+<img border="0" width="468" height="60" alt="" src="https://www20.a8.net/svt/bgt?aid=250522980888&wid=001&eno=01&mid=s00000023244001007000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www10.a8.net/0.gif?a8mat=455KRO+EOOXYQ+4ZCO+5ZU29" alt="">
+
+</div></div>
+
+<div class="ad-box">
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891695338" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891695338" border="0"></a><BR>
+
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891701062" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891701062" border="0"></a>
 </div>
-<BR>
+</div>
+
+<a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3746725&pid=891704488" rel="nofollow"><img src="https://ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3746725&pid=891704488" border="0"></a>
+
 <BR>
 
 
-<footer style="text-align: center; padding: 20px; background: #f0f0f0; margin-top: 40px;">
+<footer style="text-align: center; padding: 50px; background: #f0f0f0; margin-top: 40px;">
   <p>&copy; 2025 アオキの旅行日記</p>
 
     <p><a href="../index.html">トップページに戻る</a></p>
