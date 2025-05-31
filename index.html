@@ -94,11 +94,6 @@ line-height: 1.8;
   flex-wrap: wrap;
 }
 
-/* 左側の広告 */
-.ad-box {
-  flex: 0 0 auto;
-  text-align: center;
-}
 
 /* 右側の旅行リスト */
 .ryokou-box {
@@ -174,9 +169,19 @@ font-size:20px;
 
 /* 広告 */
 @media screen and (max-width: 935px) {
+
 .ad-box {
 display: none !important;
 }
+
+.aisatubun {
+  font-family: "Yu Gothic UI", sans-serif;
+  font-size: 12px;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
 
   .title-wrapper h1 {
     font-size: 40px;
@@ -191,14 +196,6 @@ display: none !important;
     box-sizing: border-box;
   }
 
-
-  .kansou {
-    padding: 8px;
- margin: 10px auto;
-    max-width: 100%;
-box-sizing: border-box;
-font-size: 9px;
-  }
 
   .shop-details {
     padding: 6px;
