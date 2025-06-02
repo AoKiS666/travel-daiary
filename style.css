@@ -109,7 +109,7 @@ margin-bottom: 30px;
 line-height: 1.8;
 }
 
- .shop-details {
+.shop-details {
 margin-top: 10px;
 padding: 10px;
 background: #fff8dc;
@@ -152,6 +152,20 @@ max-width: 1400px;
 flex-wrap: wrap;
 }
 
+.left-ad {
+  position: fixed;
+  top: 200px;
+  left: 250px;
+  z-index: 9999;
+}
+
+.right-ad {
+  position: fixed;
+  top: 200px;
+  right: 250px;
+  z-index: 9999;
+}
+
 .main-box {
 background-color: #ffffff;
 border-radius: 15px;
@@ -160,7 +174,6 @@ padding: 30px;
 max-width: 700px;
 flex: 1;
 }
-
 
 .ryokou-box h2,
 .ryokou-box h3 {
