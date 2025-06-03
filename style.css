@@ -197,9 +197,14 @@ display: none;
 
 /* 広告 */
 @media screen and (max-width: 935px) {
-.ad-box {
+.left-ad {
 display: none !important;
 }
+
+.right-ad {
+display: none !important;
+}
+
 
 .title-wrapper h1 {
 font-size: 40px;
