@@ -45,8 +45,14 @@ background-image: url('9-tohoku(aomori-iwate-akita-yamagata)/haikei2.JPG');
 }
 
 .bg-kouti {
-background-image: url('10.kohti/haikei2.JPG');
+background-image: url('10-kohti/haikei2.JPG');
 }
+
+.bg-banpaku {
+background-image: url('91-banpaku/haikei2.JPG');
+}
+
+
 
 .title-wrapper {
 height: 200px;
